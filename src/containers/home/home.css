@@ -1,0 +1,119 @@
+
+ .header-container {
+  position: relative;
+  width: 100%;
+  
+  height: 100vh;
+/*   background: url(/src/assets/front2.jpg);
+
+
+ 
+  background-attachment:fixed;
+  background-size:cover;
+  background-position: center; */
+  display:flex;
+
+
+
+  
+}
+.novi-pokusaj{
+ 
+width:60%;
+display:flex;
+justify-content: center;
+align-items: center;
+margin:0 auto;
+
+
+}
+@media screen and (max-width:880px){
+  .novi-pokusaj img{
+    width:100%;
+    
+    
+  }
+  .novi-pokusaj{
+    width:100%;
+    
+    
+  }
+  .header-container {
+    position: relative;
+    width: 100%;
+    align-items:center;
+    display:flex;
+    
+   
+    
+    
+  }
+}
+.about-main{
+  width:80%;
+  height: 50%;
+
+}
+
+
+.video-container{
+  width: 100%;
+  margin: 0;
+  height: 100%;
+  
+  line-height: 0;
+
+  display:flex;
+  justify-content: center;
+  
+  
+}
+.video-container video{
+  margin-top:5rem;
+  margin-bottom: 5rem;
+  width: 100%;
+  border-radius:3%;
+  filter: brightness(0.5);
+  
+}
+@media screen and (max-width:650px) {
+  .video-container video{
+    margin-top:0rem;
+    margin-bottom: 0rem;
+    width: 100%;
+    
+    
+  }
+
+}
+.blur-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.blur-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  filter: blur(30px); /* Početno zamućenje */
+}
+@media screen and (max-width:550px) {
+  .blur-section {
+    
+    height: 60vh!important;
+    
+    
+  }
+
+}
+
+
+.about-images img {
+  border: 10px solid rgba(222, 184, 135, 0.788);
+}
+

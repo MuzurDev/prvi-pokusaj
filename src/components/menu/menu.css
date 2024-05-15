@@ -1,0 +1,30 @@
+.gallery-main{
+    /* background-color:#fff; */
+    width:80%;
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+    padding-top:150px;
+/*     background-image: url(/src/assets/bg.png);
+    background-attachment:fixed;
+    background-size:cover;  */
+}
+
+.full-menu-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:3rem;
+}
+
+
+@media (min-width: 768px) {
+    .gal-container .modal-dialog {
+        width: 55%;
+        margin: 50 auto;
+        }
+    }
+
+.modal-content {
+background-color: transparent;
+}

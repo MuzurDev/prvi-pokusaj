@@ -1,0 +1,29 @@
+.footer-container{
+  height: 300px;
+  width: 100%;
+}
+.logo-footer-center{
+  display:flex;
+  justify-content: center;
+  width:200px;
+}
+
+.footer-logo{
+	display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom:40px;
+}
+
+@media (max-width: 992px) {
+	.footer-box-a, .footer-box-b, .footer-box-c, .footer-box-d{
+		margin-bottom:20px;
+	}}
+
+  @media (max-width: 945px) {
+
+    .footer-box-a, .footer-box-b, .footer-box-c, .footer-box-d{
+      margin-bottom:20px;
+    }
+
+  }

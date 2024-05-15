@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+
+
+
+
+
+.app__bg-black {
+  background: url('./assets/bgbrown.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+.app__bg {
+  background: url('./assets/bg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+.app__bg p {
+  color:  rgb(186, 186, 186)!important; 
+}
+.app__bg h1 {
+  color:  rgb(186, 186, 186)!important; 
+}
+.app__bg h2,
+.app__bg h3{
+  color:burlywood;
+}
+
+
+.app__white {
+  background: url('./assets/whitebackground.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  /* background-color:white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed; */
+}
+
+
+.app__white h1,
+.app__white h3 {
+  color:  rgb(52, 52, 52)!important; 
+}
+.app__white h2{
+  color:burlywood;
+}
+:root {
+  --swiper-theme-color: burlywood!important;
+}
+
+

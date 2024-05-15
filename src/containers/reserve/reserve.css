@@ -1,0 +1,77 @@
+.reserve-container{
+  padding-top:15rem;
+  height:auto;
+}
+
+.reservation-slider-container{
+	width:100%;
+	max-height:600px!important;
+	overflow: hidden;
+}
+.reservation-slider-container img{
+	width:100%;
+}
+.ftco-section{
+	padding-top:15rem;
+	padding-bottom: 15rem;
+}
+
+
+
+#contactForm .error {
+  color: red;
+  font-size: 12px; }
+
+#contactForm .form-control {
+  font-size: 16px; }
+
+#message {
+  resize: vertical; }
+
+#form-message-warning, #form-message-success {
+  display: none; }
+
+#form-message-warning {
+  color: red; }
+
+#form-message-success {
+  color: #28a745;
+  font-size: 18px;
+  font-weight: 500; }
+
+.submitting {
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+  display: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #e3b04b; }
+
+
+
+	.btn-send{
+    background-color: burlywood;
+    color:black;
+    border-color: burlywood;
+  }
+  .btn-send:hover{
+    background-color: transparent;
+    color:burlywood;
+    border-color: burlywood;
+  }
+
+  .flex-reserve{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+  }
+  .flex-reserve .fa:hover{
+    color:burlywood;
+    transition:0.3s ease-out;
+  }
+ 
